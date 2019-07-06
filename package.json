@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My finest Nuxt.js project",
+  "author": "Allan-Sanchez",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "tailwindcss": "^1.0.0"
+  }
+}

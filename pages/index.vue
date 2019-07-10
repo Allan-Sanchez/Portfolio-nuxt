@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <Logo></Logo>
+    
     <div class="flex justify-around items-center pl-32">
       <div class=" w-1/3">
-        <h4 class="text-md text-gray-700">Welcome,My name is</h4>
+        <h4 class="text-md text-copy-primary">Welcome,My name is</h4>
         <!-- <h2 class="text-3xl font-bold text-gray-900">My name is</h2> -->
-        <h1 class="text-5xl font-bold text-blue-800 leading-tight">Allan Sanchez</h1>
-        <h2 class="text-xl font-bold text-gray-900">Developer / Backend / Frontend</h2>
+        <h1 class="text-5xl font-bold text-blue-600 leading-tight">Allan Sanchez</h1>
+        <h2 class="text-xl font-bold text-copy-primary">Developer / Backend / Frontend</h2>
         <div class="btn mt-5">
-          <button class=" bg-blue-800 text-white  p-4 px-20 rounded font-bold text-2xl hover:bg-blue-900">Blog</button>
+          <button class=" bg-blue-600 text-gray-200  p-4 px-20 rounded font-bold text-2xl hover:bg-background-secondary hover:text-copy-primary border border-blue-800 border-2">Blog</button>
         </div>
       </div>
       <div class="w-2/3 p-20">
@@ -226,12 +226,9 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
 
 export default {
-  components: {
-    Logo
-  }
+  
 };
 </script>
 

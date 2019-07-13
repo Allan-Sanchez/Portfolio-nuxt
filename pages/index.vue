@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     
-    <div class="flex justify-around items-center pl-32">
-      <div class=" w-1/3">
+    <div class=" md:flex justify-around items-center md:pl-32">
+      <div class="w-full md:w-1/3">
         <h4 class="text-md text-copy-primary">Welcome,My name is</h4>
         <!-- <h2 class="text-3xl font-bold text-gray-900">My name is</h2> -->
         <h1 class="text-5xl font-bold text-blue-600 leading-tight">Allan Sanchez</h1>
@@ -11,8 +11,8 @@
           <button class=" bg-blue-600 text-gray-200  p-4 px-20 rounded font-bold text-2xl hover:bg-background-secondary hover:text-copy-primary border border-blue-800 border-2">Blog</button>
         </div>
       </div>
-      <div class="w-2/3 p-20">
-        <svg width="600" viewBox="0 0 1126.194 855">
+      <div class="w-full mt-10 md:w-2/3 md:p-20 md:mt-0">
+        <svg width="95%" viewBox="0 0 1126.194 855">
           <title>undraw_code_review_l1q9</title>
           <g>
             <path
